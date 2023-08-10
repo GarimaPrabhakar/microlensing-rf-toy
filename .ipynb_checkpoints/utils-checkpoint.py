@@ -1,6 +1,6 @@
 import numpy as np
 
-def adjacency_matrix(numbins, f):
+def adjacency_matrix(numbins, f, x):
     # numbins = 4
     numbins = numbins + 1
     bins = np.linspace(min(f), max(f)+0.001, numbins)

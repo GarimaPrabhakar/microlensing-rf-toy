@@ -1,11 +1,11 @@
-import nupmy as np
+import numpy as np
 
 class Exponential:
-    def __init__(mjd, flux):
+    def __init__(self, mjd, flux):
         self.mjd = mjd
         self.flux = flux
         
-    def expmjd_model(self, exp):
+    def expmjd_model(self, exp, a=False):
         """
         Inject microlensing model with an exponential model given an exponent.
         """
@@ -18,7 +18,10 @@ class Exponential:
         t1[:midind] = -1*(t1[:midind]) + max(t1[:midind])
         f1[midind:] = exp**(-1*(t1[midind:] - np.min(t1[midind:])))
         f1 = f1/min(f1)
-        return t1 + np.min(mjd), f1*flux
+        if not a:
+            return t1 + np.min(mjd), f1*flux
+        else:
+            return t1 + np.min(mjd), f1*flux, f1
 
     def get_exp(self, maxamp):
         """
