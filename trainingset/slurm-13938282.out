@@ -1,0 +1,695 @@
+Recoverying using fastrecovery.tasks.txt.tfin
+perlmuter-nid006337-22: ERROR: step 214 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 38, in main
+    df = pd.read_csv(dir_data)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+IsADirectoryError: [Errno 21] Is a directory: '../Crowdsourcecopy/crowdsource/crowdsource/csdata/data1/.ipynb_checkpoints'
+perlmuter-nid006337-19: ERROR: step 319 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 85, in main
+    _, _, am_ml = getam(numbins, A, myt)
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 23, in getam
+    ibin = np.where(bins>i)[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+perlmuter-nid006238-5: ERROR: step 0 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 85, in main
+    _, _, am_ml = getam(numbins, A, myt)
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 23, in getam
+    ibin = np.where(bins>i)[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+perlmuter-nid006239-15: ERROR: step 311 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 85, in main
+    _, _, am_ml = getam(numbins, A, myt)
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 23, in getam
+    ibin = np.where(bins>i)[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+perlmuter-nid006239-33: ERROR: step 310 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 85, in main
+    _, _, am_ml = getam(numbins, A, myt)
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 23, in getam
+    ibin = np.where(bins>i)[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+perlmuter-nid006238-39: ERROR: step 35 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 85, in main
+    _, _, am_ml = getam(numbins, A, myt)
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 23, in getam
+    ibin = np.where(bins>i)[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+perlmuter-nid006238-49: ERROR: step 50 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 85, in main
+    _, _, am_ml = getam(numbins, A, myt)
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 23, in getam
+    ibin = np.where(bins>i)[0][0]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+Remaining jobs: 384
+Remaining jobs: 384
+perlmuter-nid006238-94: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-94: All done: shutting down on thread 94
+Remaining jobs: 383
+perlmuter-nid006238-93: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-93: All done: shutting down on thread 93
+Remaining jobs: 382
+perlmuter-nid006238-125: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-125: All done: shutting down on thread 125
+Remaining jobs: 381
+Remaining jobs: 380
+perlmuter-nid006238-97: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-97: All done: shutting down on thread 97
+Remaining jobs: 379
+perlmuter-nid006238-77: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-77: All done: shutting down on thread 77
+perlmuter-nid006239-87: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-87: All done: shutting down on thread 87
+Remaining jobs: 378
+Remaining jobs: 377
+perlmuter-nid006239-11: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-11: All done: shutting down on thread 11
+perlmuter-nid006239-27: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-27: All done: shutting down on thread 27
+Remaining jobs: 376
+perlmuter-nid006239-82: Got Shutdown (SHUTDOWN)
+Remaining jobs: 375
+perlmuter-nid006239-82: All done: shutting down on thread 82
+perlmuter-nid006239-52: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-52: All done: shutting down on thread 52
+Remaining jobs: 374
+perlmuter-nid006239-49: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-49: All done: shutting down on thread 49
+Remaining jobs: 373
+perlmuter-nid006239-64: Got Shutdown (SHUTDOWN)
+Remaining jobs: 372
+perlmuter-nid006239-64: All done: shutting down on thread 64
+perlmuter-nid006239-26: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-26: All done: shutting down on thread 26
+Remaining jobs: 371
+perlmuter-nid006239-126: Got Shutdown (SHUTDOWN)
+Remaining jobs: 370
+perlmuter-nid006239-126: All done: shutting down on thread 126
+perlmuter-nid006239-69: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-69: All done: shutting down on thread 69
+Remaining jobs: 369
+perlmuter-nid006239-95: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-95: All done: shutting down on thread 95
+Remaining jobs: 368
+perlmuter-nid006239-102: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-102: All done: shutting down on thread 102
+Remaining jobs: 367
+perlmuter-nid006239-21: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-21: All done: shutting down on thread 21
+Remaining jobs: 366
+perlmuter-nid006239-23: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-23: All done: shutting down on thread 23
+Remaining jobs: 365
+Remaining jobs: 364
+perlmuter-nid006239-103: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-103: All done: shutting down on thread 103
+perlmuter-nid006239-43: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-43: All done: shutting down on thread 43
+Remaining jobs: 363
+perlmuter-nid006239-25: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-25: All done: shutting down on thread 25
+Remaining jobs: 362
+perlmuter-nid006239-60: Got Shutdown (SHUTDOWN)
+Remaining jobs: 361
+perlmuter-nid006239-60: All done: shutting down on thread 60
+perlmuter-nid006239-10: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-10: All done: shutting down on thread 10
+Remaining jobs: 360
+perlmuter-nid006239-65: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-65: All done: shutting down on thread 65
+Remaining jobs: 359
+Remaining jobs: 358
+perlmuter-nid006239-36: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-36: All done: shutting down on thread 36
+perlmuter-nid006239-59: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-59: All done: shutting down on thread 59
+Remaining jobs: 357
+perlmuter-nid006239-8: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-8: All done: shutting down on thread 8
+Remaining jobs: 356
+perlmuter-nid006239-109: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-109: All done: shutting down on thread 109
+Remaining jobs: 355
+perlmuter-nid006239-12: Got Shutdown (SHUTDOWN)
+perlmuter-nid006239-12: All done: shutting down on thread 12
+Remaining jobs: 354
+perlmuter-nid006238-33: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-33: All done: shutting down on thread 33
+Remaining jobs: 353
+perlmuter-nid006238-34: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-34: All done: shutting down on thread 34
+Remaining jobs: 352
+perlmuter-nid006238-24: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-24: All done: shutting down on thread 24
+Remaining jobs: 351
+perlmuter-nid006238-41: ERROR: step 40 exited with 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+Traceback (most recent call last):
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 95, in <module>
+    main()
+  File "/pscratch/sd/g/garimap/microlensingToy/generate_training_set.py", line 38, in main
+    df = pd.read_csv(dir_data)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 934, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1218, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "/global/common/software/nersc/pm-2022q3/sw/python/3.9-anaconda-2021.11/lib/python3.9/site-packages/pandas/io/common.py", line 786, in get_handle
+    handle = open(
+IsADirectoryError: [Errno 21] Is a directory: '../Crowdsourcecopy/crowdsource/crowdsource/csdata/data1/.ipynb_checkpoints'
+perlmuter-nid006238-41: Got Shutdown (SHUTDOWN)
+perlmuter-nid006238-41: All done: shutting down on thread 41
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Connection refused: 128.55.78.197:36093
+Killing Server

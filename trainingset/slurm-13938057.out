@@ -1,0 +1,3 @@
+Recoverying using fastrecovery.tasks.txt.tfin
+Bad start: r.sh" ../Crowdsourcecopy/crowdsource/crowdsource/csdata/data1/DC21zlrd_crowdsource_rs8.csv 7
+slurmstepd: error: *** JOB 13938057 ON nid005054 CANCELLED AT 2023-08-15T17:51:11 DUE TO TIME LIMIT ***
