@@ -59,6 +59,7 @@ def main():
     df["normflux"] = df["flux"]*(10**((df["magzp"]-29)/2.5))
     df["dnormflux"] = df["dflux"]*(10**((df["magzp"]-29)/2.5))
     df = df.iloc[np.where((df["dnormflux"]/df["normflux"])<0.2)]
+    df = df.drop_duplicates(subset="MJD")
     df = df.sort_values("MJD")
     df = df.reset_index()
     
